@@ -1,0 +1,454 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Graphics">
+      <UniqueIdentifier>{b62e12d1-bd46-4217-859c-60e59554c44d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DebugMessaging">
+      <UniqueIdentifier>{42dcf36b-4dbc-4a7e-9410-0dfb7737bf20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game State Manager">
+      <UniqueIdentifier>{ade6c925-517e-4dc1-a8ab-c78abbe51ce2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Levels">
+      <UniqueIdentifier>{492dfde6-65b6-4880-9856-41623c3a52a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Object Manager">
+      <UniqueIdentifier>{42aeab93-953f-45fe-b94b-4c7498fd251b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Physics">
+      <UniqueIdentifier>{4f9c5b47-55cc-49c7-8114-42f5103e60fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sound">
+      <UniqueIdentifier>{40570426-80bf-4f82-9b99-a223ce6fa972}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Input">
+      <UniqueIdentifier>{76fc81c0-0b8e-4ef1-9b18-956b46cc0777}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Time">
+      <UniqueIdentifier>{2f0ec9c0-119a-47e9-8ec8-f4821c58ff5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Console">
+      <UniqueIdentifier>{9ecdef16-1cd8-47d0-94ce-184172359b01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Obj Loader">
+      <UniqueIdentifier>{d2d75904-3e1c-48f8-b6e5-ace520c6752d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Color">
+      <UniqueIdentifier>{1aa4a085-078c-475a-a237-f96f98dda613}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\RenderNodes">
+      <UniqueIdentifier>{1cc6ab05-1338-4449-81e7-0feb68898a9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\Renderer">
+      <UniqueIdentifier>{d5b41553-300e-4e83-a724-a9933921a842}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Design Pattern - Command">
+      <UniqueIdentifier>{9b31453f-cfe0-409a-ae3f-018176e390c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\Light">
+      <UniqueIdentifier>{56a21a24-20c9-4fc0-86d1-435be427b321}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\RenderNodes\LightNode">
+      <UniqueIdentifier>{79f39b5f-e3be-480d-abff-e53a8d5a5865}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\Shaders">
+      <UniqueIdentifier>{06bf9baa-c0e5-414a-9b7d-1e9ee2e21897}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\Shaders\Shader Core Functionality">
+      <UniqueIdentifier>{88c7a2fc-cdd1-4366-8003-3c9f627d9530}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\Shaders\Created Shaders">
+      <UniqueIdentifier>{4becf55e-44b0-49e8-b640-1f1ffd38f804}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\RenderTexture">
+      <UniqueIdentifier>{5d4da350-0966-4029-98ad-80d66206199c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\Geometry Generation">
+      <UniqueIdentifier>{3c1bc0f8-fcbe-4828-b88e-a9d9ff7b6c4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\Geometry Generation\Shapes">
+      <UniqueIdentifier>{aa6a7c94-12ff-4d77-a5c4-fc13d5db8172}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="camera.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="graphics.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="ErrorMessage.cpp">
+      <Filter>DebugMessaging</Filter>
+    </ClCompile>
+    <ClCompile Include="Direct3D.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="VertexBuffer.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="GameStateManager.cpp">
+      <Filter>Game State Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Level2.cpp">
+      <Filter>Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="Level1.cpp">
+      <Filter>Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="System.cpp">
+      <Filter>Game State Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjectManager.cpp">
+      <Filter>Game Object Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>Game Object Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="RigidBody.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicsWorld.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound.cpp">
+      <Filter>Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="ColorHSV.cpp">
+      <Filter>Color</Filter>
+    </ClCompile>
+    <ClCompile Include="PartyLight.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="PB_input.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="PB_time.cpp">
+      <Filter>Time</Filter>
+    </ClCompile>
+    <ClCompile Include="guicon.cpp">
+      <Filter>Console</Filter>
+    </ClCompile>
+    <ClCompile Include="VertexIndicies.cpp">
+      <Filter>Obj Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="VertexTexture.cpp">
+      <Filter>Obj Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="VertexNormal.cpp">
+      <Filter>Obj Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="VertexPosition.cpp">
+      <Filter>Obj Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjInfo.cpp">
+      <Filter>Obj Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="Cout_for_DirectX.cpp">
+      <Filter>Obj Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjLineReader.cpp">
+      <Filter>Obj Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjLoader.cpp">
+      <Filter>Obj Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="Vertex.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="VectorMath.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelNode.cpp">
+      <Filter>Graphics\RenderNodes</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderGroup.cpp">
+      <Filter>Graphics\RenderNodes</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderNode.cpp">
+      <Filter>Graphics\RenderNodes</Filter>
+    </ClCompile>
+    <ClCompile Include="BoxNode.cpp">
+      <Filter>Graphics\RenderNodes</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer.cpp">
+      <Filter>Graphics\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectXRenderer.cpp">
+      <Filter>Graphics\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="PointLight.cpp">
+      <Filter>Graphics\Light</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectionalLight.cpp">
+      <Filter>Graphics\Light</Filter>
+    </ClCompile>
+    <ClCompile Include="SpotLight.cpp">
+      <Filter>Graphics\Light</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectionalLightNode.cpp">
+      <Filter>Graphics\RenderNodes\LightNode</Filter>
+    </ClCompile>
+    <ClCompile Include="PointLightNode.cpp">
+      <Filter>Graphics\RenderNodes\LightNode</Filter>
+    </ClCompile>
+    <ClCompile Include="SpotLightNode.cpp">
+      <Filter>Graphics\RenderNodes\LightNode</Filter>
+    </ClCompile>
+    <ClCompile Include="tempGlobals.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PixelShader.cpp">
+      <Filter>Graphics\Shaders\Shader Core Functionality</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>Graphics\Shaders\Shader Core Functionality</Filter>
+    </ClCompile>
+    <ClCompile Include="VertexShader.cpp">
+      <Filter>Graphics\Shaders\Shader Core Functionality</Filter>
+    </ClCompile>
+    <ClCompile Include="FullscreenTextureShader.cpp">
+      <Filter>Graphics\Shaders\Created Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderTexture.cpp">
+      <Filter>Graphics\RenderTexture</Filter>
+    </ClCompile>
+    <ClCompile Include="FullscreenRenderTexture.cpp">
+      <Filter>Graphics\RenderTexture</Filter>
+    </ClCompile>
+    <ClCompile Include="GeometryGenerator.cpp">
+      <Filter>Graphics\Geometry Generation</Filter>
+    </ClCompile>
+    <ClCompile Include="CubeGeometry.cpp">
+      <Filter>Graphics\Geometry Generation\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="SphereGeometry.cpp">
+      <Filter>Graphics\Geometry Generation\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="TetrahedronGeometry.cpp">
+      <Filter>Graphics\Geometry Generation\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="FullscreenQuadGeometry.cpp">
+      <Filter>Graphics\Geometry Generation\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="GridGeometry.cpp">
+      <Filter>Graphics\Geometry Generation\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectionalLightShader.cpp">
+      <Filter>Graphics\Shaders\Created Shaders</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Level1_Counter.txt">
+      <Filter>Levels</Filter>
+    </None>
+    <None Include="Level2_Counter.txt">
+      <Filter>Levels</Filter>
+    </None>
+    <None Include="Level2_Lives.txt">
+      <Filter>Levels</Filter>
+    </None>
+    <None Include="How to make a shader.txt">
+      <Filter>Graphics\Shaders</Filter>
+    </None>
+    <None Include="Resources\Shaders\shaders.fx" />
+    <None Include="Resources\Shaders\ambient diffuse specular.fx" />
+    <None Include="Resources\Shaders\diffuse only.fx" />
+    <None Include="Resources\Shaders\fullscreen texture.fx" />
+    <None Include="Resources\Shaders\LightHelper.fx" />
+    <None Include="Resources\Shaders\normal depth.fx" />
+    <None Include="Resources\Shaders\shader2.fx" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="camera.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="graphics.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="ErrorMessage.h">
+      <Filter>DebugMessaging</Filter>
+    </ClInclude>
+    <ClInclude Include="Direct3D.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexBuffer.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Vertex.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="GameStateManager.h">
+      <Filter>Game State Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="GameStateList.h">
+      <Filter>Game State Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Level1.h">
+      <Filter>Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="Level2.h">
+      <Filter>Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="System.h">
+      <Filter>Game State Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjectManager.h">
+      <Filter>Game Object Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Game Object Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="RigidBody.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsWorld.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound.h">
+      <Filter>Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="ConstantBuffer.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="ColorHSV.h">
+      <Filter>Color</Filter>
+    </ClInclude>
+    <ClInclude Include="PartyLight.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="IndexBuffer.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="PB_input.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="PB_time.h">
+      <Filter>Time</Filter>
+    </ClInclude>
+    <ClInclude Include="guicon.h">
+      <Filter>Console</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexIndicies.h">
+      <Filter>Obj Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexTexture.h">
+      <Filter>Obj Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexNormal.h">
+      <Filter>Obj Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexPosition.h">
+      <Filter>Obj Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjLoader.h">
+      <Filter>Obj Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="cout_for_directx.h">
+      <Filter>Obj Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="Cout_for_stdVector.h">
+      <Filter>Obj Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjInfo.h">
+      <Filter>Obj Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjLineReader.h">
+      <Filter>Obj Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="VectorMath.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelNode.h">
+      <Filter>Graphics\RenderNodes</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderGroup.h">
+      <Filter>Graphics\RenderNodes</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderNode.h">
+      <Filter>Graphics\RenderNodes</Filter>
+    </ClInclude>
+    <ClInclude Include="BoxNode.h">
+      <Filter>Graphics\RenderNodes</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer.h">
+      <Filter>Graphics\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectXRenderer.h">
+      <Filter>Graphics\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="ICommand.h">
+      <Filter>Design Pattern - Command</Filter>
+    </ClInclude>
+    <ClInclude Include="SpotLight.h">
+      <Filter>Graphics\Light</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectionalLight.h">
+      <Filter>Graphics\Light</Filter>
+    </ClInclude>
+    <ClInclude Include="PointLight.h">
+      <Filter>Graphics\Light</Filter>
+    </ClInclude>
+    <ClInclude Include="ILight.h">
+      <Filter>Graphics\Light</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectionalLightNode.h">
+      <Filter>Graphics\RenderNodes\LightNode</Filter>
+    </ClInclude>
+    <ClInclude Include="SpotLightNode.h">
+      <Filter>Graphics\RenderNodes\LightNode</Filter>
+    </ClInclude>
+    <ClInclude Include="PointLightNode.h">
+      <Filter>Graphics\RenderNodes\LightNode</Filter>
+    </ClInclude>
+    <ClInclude Include="tempGlobals.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshData.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexShader.h">
+      <Filter>Graphics\Shaders\Shader Core Functionality</Filter>
+    </ClInclude>
+    <ClInclude Include="PixelShader.h">
+      <Filter>Graphics\Shaders\Shader Core Functionality</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>Graphics\Shaders\Shader Core Functionality</Filter>
+    </ClInclude>
+    <ClInclude Include="FullscreenTextureShader.h">
+      <Filter>Graphics\Shaders\Created Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderTexture.h">
+      <Filter>Graphics\RenderTexture</Filter>
+    </ClInclude>
+    <ClInclude Include="FullscreenRenderTexture.h">
+      <Filter>Graphics\RenderTexture</Filter>
+    </ClInclude>
+    <ClInclude Include="GeometryGenerator.h">
+      <Filter>Graphics\Geometry Generation</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectionalLightShader.h">
+      <Filter>Graphics\Shaders\Created Shaders</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

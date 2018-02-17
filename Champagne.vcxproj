@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{A993053B-6AB7-41CE-9193-8952793ADD00}</ProjectGuid>
+    <RootNamespace>Champagne</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="BoxNode.cpp" />
+    <ClCompile Include="camera.cpp" />
+    <ClCompile Include="ColorHSV.cpp" />
+    <ClCompile Include="Cout_for_DirectX.cpp" />
+    <ClCompile Include="CubeGeometry.cpp" />
+    <ClCompile Include="Direct3D.cpp" />
+    <ClCompile Include="DirectionalLight.cpp" />
+    <ClCompile Include="DirectionalLightNode.cpp" />
+    <ClCompile Include="DirectionalLightShader.cpp" />
+    <ClCompile Include="DirectXRenderer.cpp" />
+    <ClCompile Include="ErrorMessage.cpp" />
+    <ClCompile Include="FullscreenQuadGeometry.cpp" />
+    <ClCompile Include="FullscreenRenderTexture.cpp" />
+    <ClCompile Include="FullscreenTextureShader.cpp" />
+    <ClCompile Include="GameObject.cpp" />
+    <ClCompile Include="GameObjectManager.cpp" />
+    <ClCompile Include="GameStateManager.cpp" />
+    <ClCompile Include="GeometryGenerator.cpp" />
+    <ClCompile Include="graphics.cpp" />
+    <ClCompile Include="GridGeometry.cpp" />
+    <ClCompile Include="guicon.cpp" />
+    <ClCompile Include="ILightNode.cpp" />
+    <ClCompile Include="Level1.cpp" />
+    <ClCompile Include="Level2.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Mesh.cpp" />
+    <ClCompile Include="ModelNode.cpp" />
+    <ClCompile Include="ObjInfo.cpp" />
+    <ClCompile Include="ObjLineReader.cpp" />
+    <ClCompile Include="ObjLoader.cpp" />
+    <ClCompile Include="PartyLight.cpp" />
+    <ClCompile Include="PB_input.cpp" />
+    <ClCompile Include="PB_mouse.c" />
+    <ClCompile Include="PB_time.cpp" />
+    <ClCompile Include="PhysicsWorld.cpp" />
+    <ClCompile Include="PixelShader.cpp" />
+    <ClCompile Include="PointLight.cpp" />
+    <ClCompile Include="PointLightNode.cpp" />
+    <ClCompile Include="Renderer.cpp" />
+    <ClCompile Include="RenderGroup.cpp" />
+    <ClCompile Include="RenderNode.cpp" />
+    <ClCompile Include="RenderTexture.cpp" />
+    <ClCompile Include="RigidBody.cpp" />
+    <ClCompile Include="Scene.cpp" />
+    <ClCompile Include="Shader.cpp" />
+    <ClCompile Include="Sound.cpp" />
+    <ClCompile Include="SphereGeometry.cpp" />
+    <ClCompile Include="SpotLight.cpp" />
+    <ClCompile Include="SpotLightNode.cpp" />
+    <ClCompile Include="System.cpp" />
+    <ClCompile Include="tempGlobals.cpp" />
+    <ClCompile Include="TetrahedronGeometry.cpp" />
+    <ClCompile Include="VectorMath.cpp" />
+    <ClCompile Include="Vertex.cpp" />
+    <ClCompile Include="VertexBuffer.cpp" />
+    <ClCompile Include="VertexIndicies.cpp" />
+    <ClCompile Include="VertexNormal.cpp" />
+    <ClCompile Include="VertexPosition.cpp" />
+    <ClCompile Include="VertexShader.cpp" />
+    <ClCompile Include="VertexTexture.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BoxNode.h" />
+    <ClInclude Include="camera.h" />
+    <ClInclude Include="ColorHSV.h" />
+    <ClInclude Include="ConstantBuffer.h" />
+    <ClInclude Include="Cout_for_DirectX.h" />
+    <ClInclude Include="Cout_for_stdVector.h" />
+    <ClInclude Include="Direct3D.h" />
+    <ClInclude Include="DirectionalLight.h" />
+    <ClInclude Include="DirectionalLightNode.h" />
+    <ClInclude Include="DirectionalLightShader.h" />
+    <ClInclude Include="DirectXRenderer.h" />
+    <ClInclude Include="ErrorMessage.h" />
+    <ClInclude Include="FullscreenRenderTexture.h" />
+    <ClInclude Include="FullscreenTextureShader.h" />
+    <ClInclude Include="GameObject.h" />
+    <ClInclude Include="GameObjectManager.h" />
+    <ClInclude Include="GameStateList.h" />
+    <ClInclude Include="GameStateManager.h" />
+    <ClInclude Include="GeometryGenerator.h" />
+    <ClInclude Include="graphics.h" />
+    <ClInclude Include="guicon.h" />
+    <ClInclude Include="ICommand.h" />
+    <ClInclude Include="ILight.h" />
+    <ClInclude Include="ILightNode.h" />
+    <ClInclude Include="IndexBuffer.h" />
+    <ClInclude Include="Level1.h" />
+    <ClInclude Include="Level2.h" />
+    <ClInclude Include="LightNode.h" />
+    <ClInclude Include="Mesh.h" />
+    <ClInclude Include="MeshData.h" />
+    <ClInclude Include="ModelNode.h" />
+    <ClInclude Include="ObjInfo.h" />
+    <ClInclude Include="ObjLineReader.h" />
+    <ClInclude Include="ObjLoader.h" />
+    <ClInclude Include="PartyLight.h" />
+    <ClInclude Include="PB_input.h" />
+    <ClInclude Include="PB_mouse.h" />
+    <ClInclude Include="PB_time.h" />
+    <ClInclude Include="PhysicsWorld.h" />
+    <ClInclude Include="PixelShader.h" />
+    <ClInclude Include="PointLight.h" />
+    <ClInclude Include="PointLightNode.h" />
+    <ClInclude Include="Renderer.h" />
+    <ClInclude Include="RenderGroup.h" />
+    <ClInclude Include="RenderNode.h" />
+    <ClInclude Include="RenderTexture.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="RigidBody.h" />
+    <ClInclude Include="Scene.h" />
+    <ClInclude Include="Shader.h" />
+    <ClInclude Include="Sound.h" />
+    <ClInclude Include="SpotLight.h" />
+    <ClInclude Include="SpotLightNode.h" />
+    <ClInclude Include="System.h" />
+    <ClInclude Include="tempGlobals.h" />
+    <ClInclude Include="VectorMath.h" />
+    <ClInclude Include="Vertex.h" />
+    <ClInclude Include="VertexBuffer.h" />
+    <ClInclude Include="VertexIndicies.h" />
+    <ClInclude Include="VertexNormal.h" />
+    <ClInclude Include="VertexPosition.h" />
+    <ClInclude Include="VertexShader.h" />
+    <ClInclude Include="VertexTexture.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
